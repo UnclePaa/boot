@@ -1,0 +1,17 @@
+POST http://localhost:8080/calc
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "num1": 56,
+  "num2": 64,
+  "type": "sum"
+}
+
+###
+GET http://localhost:8080/history
+Accept: */*
+Cache-Control: no-cache
+
+###
